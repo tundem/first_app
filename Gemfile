@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
-gem 'rails'
+gem 'rails', '3.2.3'
 group :development do 
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.5'
 end
 # Gems used only for assets and not required # in production environments by default. 
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier' 
+  gem 'sass-rails',   '3.2.4'
+  gem 'coffee-rails', '3.2.2'
+  gem 'uglifier', '1.2.3' 
 end
-gem 'jquery-rails'
+gem 'jquery-rails', '2.0.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc'        group: :doc
+gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
